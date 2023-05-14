@@ -1,0 +1,110 @@
+body{
+    background: url(../imagenes/login/fondo.jpg) no-repeat center center fixed;
+    margin: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.logo{
+    position: relative;
+    width: 290px;
+    height: 160px;
+    margin:0 auto;
+    top: 100px;
+    
+}
+img{
+    border-radius: 10px;
+}
+
+form{
+    position: relative;
+    background-color: rgba(125, 87, 20, 0.47);
+    padding: 10px 10px 10px 10px;
+    width: 13%;
+    margin: 0 auto;
+    top: 130px;
+    border: 1px solid rgba(255, 152, 0, 0.29);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0.5px rgba(247, 145, 68, 0.61);
+}
+label{
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8705882352941177);
+    outline: medium none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: medium;
+
+}
+input{
+    margin-top: 10px;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 0px;
+    border-width: 0px;
+    border-left: 0px;
+    border-top: 0px;
+    padding: 5px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 12px;
+    text-shadow: 0.5px 0.5px 1px rgba(101, 97, 97, 0.84);
+    box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.98);
+    outline: medium none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: medium;
+}
+p{
+    margin: 0%;
+    display: block;
+}
+#ing{
+    cursor: pointer;
+}
+
+form.formulario{
+    position: relative;
+    background-color: rgba(125, 87, 20, 0.47);
+    padding: 10px 10px 10px 10px;
+    width: 20%;
+    margin: 0 auto;
+    top: 130px;
+    border: 1px solid rgba(255, 152, 0, 0.29);
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 0.5px rgba(247, 145, 68, 0.61);
+}
+
+form select.listaPre{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.98);
+}
+
+form select.listaPre:focus{
+    box-shadow: none;
+    border-style: none;
+    outline-color: transparent;
+}
+
+.form form a{
+    color: #fff;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.98);
+    text-decoration: none;
+}

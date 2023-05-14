@@ -1,0 +1,643 @@
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../imagenes/fondo-cuerpo.jpg");
+}
+
+.row{
+	width: 100%;
+	margin:0;
+	padding: 0;
+}
+
+.colu-1{
+	background: #10232f;
+	position: fixed;
+	height: 100%;
+	padding: 0;
+	float: left;
+	padding: 0;
+	box-shadow: 3px 0 2px #193648;
+}
+
+.contenedor-menu img{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.contenedor-menu ul li.divider{
+	height: 1px;
+	width: 100% !important;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #1E3442;
+}
+
+.contenedor-menu ul li#p{
+	height: 45px;
+	width: 100%;
+	list-style: none;
+}
+
+.contenedor-menu ul li#p a{
+	text-decoration: none;
+	display: block;
+	padding-top: 10px;
+	height: 35px;
+	color: #fff;
+	font-size: 17px;
+}
+
+.contenedor-menu ul li#p .glyphicon{
+	padding-right: 10px;
+	padding-left: 20px;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-menu ul li#p:hover{
+	background: #163040;
+	box-shadow: 3px 0 0 #6441a4 inset;
+}
+
+.contenedor-menu ul li.dropup{
+	position: fixed;
+	bottom: 0;
+	width: 16.7%;
+	height: 80px;
+	padding-top: 15px;
+	padding-bottom: auto;
+	box-shadow: 0 2px 0 #6441a4 inset;
+}
+
+.contenedor-menu ul li img.img-usuario{
+	padding: 0;
+	border-radius: 50%;
+	box-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-menu ul li span.contenedor-img-usuario{
+	padding-right: 8px;
+	padding-left: 15px;
+}
+
+.contenedor-menu ul li span.glyphicon-chevron-up{
+	float:right;
+	font-size: 12px;
+	padding-right: 10px;
+	padding-top: 5px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-menu ul li.dropup{
+	background-color: #152d3c;
+	
+}
+
+.contenedor-menu ul li.dropup{
+	display: block;
+	padding-top: 30px;
+	text-decoration: none;
+}
+
+.contenedor-menu ul li.dropup a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.contenedor-menu ul li > ul.dropdown-menu{
+	background: #152d3c;
+	height: 45px;
+	width: 100%;
+	border-radius: 0 0 0;
+}
+
+.contenedor-menu ul li > ul.dropdown-menu li{
+	padding: 0;
+	margin: 0;
+	height: 40px;
+	width: 100%;
+}
+
+.contenedor-menu ul li > ul.dropdown-menu li a{
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+}
+
+.contenedor-menu ul li > ul.dropdown-menu li a:focus{
+	background-color: #152d3c;
+	color: #fff;
+}
+
+.contenedor-menu ul li > ul.dropdown-menu li a:hover{
+	background: #152d3c;
+	color: #fff;
+}
+
+.contenedor-menu ul li > ul li span.glyphicon{
+	padding-right: 10px;
+	font-size: 18px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+/* Css de la ventana INFORMACION*/
+
+.colu-2{
+	float: right;
+	padding: 20px;
+	margin: 0;
+	text-align: center;
+}
+
+.contenedor-contenido{
+	background: rgba(100, 65, 164, 0.79);
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px;
+	box-shadow: 3px 3px 5px #060e13;
+}
+
+.contenedor-contenido a.boton-ventana{
+	background: #10232f;
+	border-style: none;
+	border-radius: 0;
+	float: right;
+	clear: right;
+}
+
+.contenedor-contenido a.boton-ventana:focus{
+	background: #10232f;
+	border-style: none;
+	border-radius: 0;
+	outline: 0;
+}
+
+.contenedor-contenido a.boton-ventana:hover{
+	background: #163040;
+	border-style: none;
+	border-radius: 0;
+	box-shadow: 3px 0 0 #6441a4 inset;
+}
+
+.contenedor-contenido a > span.glyphicon{
+	padding-right: 10px;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-contenido div.ventana-emergente{
+	background: rgba(100, 65, 164, 0.45);
+	color: #fff;
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content{
+	background: #10232f;
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content a.close{
+	color: #fff;
+	text-shadow: 2px 2px 2px #000; 
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content .modal-body input{
+	background: #152d3c;
+	color: #fff;
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content .modal-footer a{
+	background: #10232f;
+	border-style: none;
+	border-radius: 0;
+	box-shadow: 0;
+	color: #fff;
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content .modal-footer a:hover{
+	background: #163040;
+	border-style: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: 3px 0 0 #6441a4 inset;
+}
+
+.contenedor-contenido div.ventana-emergente .modal-content .modal-footer a span.glyphicon{
+	padding-right: 10px;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-contenido .cont{
+	clear: right;
+}
+
+.contenedor-contenido .cont form{
+	margin-bottom: 20px;
+}
+
+.contenedor-contenido .cont form div.form-group input{
+	width: 272px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	color: #000;
+}
+
+/* Fin CSS de la ventana INFORMACION*/
+
+/* CSS de la ventana EMPLEADOS*/
+
+.contenedor-contenido > form.registro-usuario input{
+	background: #eee;
+	color: #000;
+	width: 272px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor-contenido form.registro-usuario .pregunta-secreta select{
+	background: #152d3c;
+	color: #fff;
+	width: 272px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contenedor-contenido form.registro-usuario .pregunta-secreta select option.option{
+	background-color: #163040;
+	color: #fff;
+	outline-color: none;
+	border-radius: 2px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contenedor-contenido form.registro-usuario div.registrar input.form-control{
+	background: #10232f;
+	border-style: none;
+	width: auto;
+}
+
+.form > form .form-group > input.form-control{
+	margin-left: 27px;
+	width: 90%;
+}
+
+.editar > form .form-group > input.form-control{
+	margin-left: 27px;
+	margin-bottom: 10px;
+	width: 90%;
+}
+
+.contenedor-contenido form.registro-usuario div.registrar input.form-control:hover{
+	background: #163040;
+	border-style: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: 3px 0 0 #6441a4 inset;
+}
+
+.contenedor-contenido form.registro-usuario div.registrar input.form-control:focus{
+	background: #163040;
+	border-style: none;
+	border-radius: 0;
+	outline: none;
+	box-shadow: 3px 0 0 #6441a4 inset;
+}
+
+
+
+/* Fin CSS de la ventana EMPLEADOS
+
+/* CSS de la ventana INICIO */
+
+.contenedor-contenido div.cont-pestanas-mesa ul.nav-tabs{
+	border-bottom: 1px solid #10232f;
+}
+
+.contenedor-contenido div.cont-pestanas-mesa ul.nav-tabs li{
+	width: 100px auto;
+	height: 45px;
+	background: #10232f;
+	border-radius: 0 0 0 0;
+}
+
+.contenedor-contenido div.cont-pestanas-mesa ul.nav-tabs li a{
+	width: 100px auto;
+	height: 45px;
+	background: #10232f;
+	border-radius: 0 0 0 0;
+	color: #fff;
+	margin: 0;
+	border: none;
+}
+
+.contenedor-contenido div.cont-pestanas-mesa ul.nav-tabs li a:hover{
+	background: #163040;
+	box-shadow: 3px 0 0 #6441a4 inset;
+	border-style: none;
+}
+
+.contenedor-contenido div.cont-pestanas-mesa ul.nav-tabs li a span.glyphicon{
+	padding-right: 10px;
+	font-size: 15px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+		 /* ############ Ventana MODAL ############ */
+
+
+.contenedor-contenido div#contenedor div.mesa div.contenedor-mesa > a.mesa{
+	background: #005b80;
+	border: none;
+	width: 125px;
+	height: 135px;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	font-size: 45px;
+	outline-color: transparent;
+}
+
+div#contenedor div.mesa div.contenedor-mesa > a.mesa:hover{
+	background: #003d56;
+	box-shadow: 3px 0 0 #10232f inset;
+}
+
+.contenedor-contenido div#contenedor div.mesa div.contenedor-mesa > a.mesa .personas{
+	font-size: 20px;
+}
+
+.contenedor-contenido div#contenedor div.mesa div.contenedor-mesa > a.mesa .personas span.glyphicon{
+	font-size: 22px;
+	padding-right: 10px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+.contenedor-contenido div#contenedor div.mesa div.contenedor-mesa > a.mesa .estado{
+	font-size: 13px;
+}
+
+.contenedor-contenido div#contenedor div.mesa div.contenedor-mesa > a.mesa .estado > span.glyphicon{
+	font-size: 14px;
+	padding-right: 5px;
+	text-shadow: 2px 2px 2px #000;
+}
+
+a.btn.btn-primary{
+	background: #163040;
+	border-style: none;
+}
+
+		 /* ############ Fin Ventana MODAL ############ */
+
+		/* ############ Ventana ADMINISTAR ############ */
+
+#contenedor #contenido-adm{
+	float: left;
+}
+
+table.adm-mesas{
+	width: 50%;
+	background: #163040;
+	color: #fff;
+	margin-top: 20px;
+	clear: left;
+	float: left;
+}
+
+table.adm-mesas tr:nth-of-type(odd){
+	background: #10232f;
+}
+
+table.adm-mesas tr{
+	text-shadow: 2px 2px 2px #000;
+}
+
+table.adm-mesas tr td{
+	text-align: left;
+}
+
+.agregar{
+	position: relative;
+	width: 50%;
+	float: left;
+}
+
+div.agregar.clearfix.tablaEm{
+	position: relative;
+	width: 100%;
+	float: left;
+}
+
+table.table.table-striped.adm-mesas.clearfix.tablaEm{
+	width: 100%;
+}
+
+.agregar ul.nav.nav-tabs{
+	width: 95%;
+	float: right;
+}
+
+.agregar ul.nav.nav-tabs li{
+	width: 100px auto;
+	height: 40px;
+	border-radius: 0 0 0 0;
+	margin-top: 20px;
+	float: right;
+	list-style: none;
+}
+
+.agregar ul.nav.nav-tabs li a{
+
+	background: #10232f;
+	padding: 10px 15px;
+	color: #fff;
+	text-decoration: none;
+	border:none;
+	border-radius: 0;
+}
+
+.agregar ul.nav.nav-tabs li a:hover{
+	background: #163040;
+	box-shadow: 3px 0 0 #6441a4 inset;
+	text-decoration-style: none;
+}
+
+.input-group-addon:first-child{
+	background: transparent;
+	border-style: none;
+	height: 15px;
+	padding: 0;
+	padding-right: 5px;
+}
+
+input.nummesa{
+	background: transparent;
+	border-style: none;
+	width: 15px;
+}
+
+.form-group{
+	margin-bottom: 0;
+}
+
+.form-group > input.form-control{
+	color: #fff;
+	background: #163040;
+}
+
+.form-group > input.form-control.agregar{
+	margin-top: 10px;
+	margin-left: 25%;
+}
+
+
+		/* ############ Fin Ventana ADMINISTRAR ############ */
+
+		/* ############ Contenido Ventana ADMINISTRAR ############ */
+
+#contenedor .agregar .contenedor-agregar form{
+	padding-left: 20px;
+	width: 100%;
+	clear: right;
+}
+
+#contenedor .agregar .contenedor-agregar form .form-group input{
+	background: #eee;
+	width: 50%;
+	float: right;
+	margin-bottom: 10px;
+}
+
+#contenedor .agregar .contenedor-agregar form .form-group input.agregar{
+	clear: right;
+	float: right;
+	margin-top: 10px;
+}
+
+#contenedor .agregar .contenedor-agregar form .form-group label{
+	border-bottom: 2px solid #10232f;
+	padding-bottom: 5px;
+	float: left;
+	clear: right;
+}
+		/* ############ Fin Contenido Ventana ADMINISTRAR ############ */		 
+/* Fin CSS de la ventana INICIO */
+
+/* Inicio CSS ventana Reservas */
+
+.contenedor-contenido .table-reservas table.table_reservas{
+	width: 100%;
+	overflow: auto;
+}
+
+textarea.comentarios{
+	background: #152d3c;
+	color: #fff;
+	width: 272px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Fin CSS ventana Reservas */
+
+/* Ventana Modal de la pestaña Agregar Empleados */
+
+.contenedor-contenido ul.nav.nav-tabs{
+	border-bottom: 1px solid #10232f;
+}
+
+.contenedor-contenido ul.nav.nav-tabs li a{
+	margin-right: 0;
+}
+	
+
+
+/* Fin ventana modal empleados */
+
+/* Inicio ventana PRODUCTOS */
+
+.tabpanel.productos ul{
+	margin-top: 15px;
+}
+
+.tabpanel.productos ul > li{
+	background: #10232f;
+	border-radius: 0;
+
+}
+
+.tabpanel.productos ul > li a{
+	color: #fff;
+	border-style: none;
+}
+
+.tabpanel.productos ul > li a:hover{
+	background: #163040;
+	box-shadow: 3px 0 0 #6441a4 inset;
+	border-radius: 0;
+}
+
+.tabpanel.productos ul > li.active a{
+	background-color: #163040;
+	border-style: none;
+	border-radius: 0;
+}
+
+.tabpanel.productos ul > li.active a:hover{
+	background-color: #163040;
+	color: #fff;
+	border-style: none;
+	border-radius: 0;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	background: #163040;
+	box-shadow: 3px 0 0 #6441a4 inset;
+	color: #fff;
+	cursor: pointer;
+	border:none;
+	border-bottom-color: transparent;
+}
+
+
+/* Fin ventana PRODUCTOS */
+
+/* Contenedor PLATOS */
+
+.contenedor-platos{
+	float: left;
+	margin-bottom: 20px;
+}
+
+.contenedor-platos .platos{
+	float: left;
+	margin-right: 10px;
+}
+
+.contenedor-platos .pfuertes .platos{
+	float: left;
+	margin-right: 10px;
+}
+
+.contenedor-platos .minfantil .platos{
+	float: left;
+	margin-right: 10px;
+}
+
+h1, h2, h4, h3 {
+	color: #fff;
+	text-shadow: 3px 2px 3px #000;
+}
+
+
+/* Fin contenedor PLATOS */
